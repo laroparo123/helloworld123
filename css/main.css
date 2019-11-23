@@ -10,15 +10,9 @@
 }
 
 .start{
-  width: 100%;
-  overflow: hidden;
-    position: fixed;
-    background:#fff;
-    top: 0;
-    margin-bottom: 3em;
-    z-index: 1;
-    box-shadow: 1px 1px 1px 1px rgb(197, 194, 194);
-  }
+  background: #fff;
+  padding: 0.7em;
+}
 .hamburger{
   font-size: 1.7rem;
 }
@@ -58,7 +52,7 @@
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  /* padding: 2px; */
 }
 
 @media screen and (max-height: 450px) {
@@ -72,7 +66,7 @@
   
   .heading {
     width: 70%;
-    margin: 3em auto;
+    margin: 0.2em auto;
     background-position: center;
   }
 .login{
@@ -80,7 +74,7 @@
   color: #000;
 }  
   .heading img {
-    margin-top: 3em;
+    margin-top: 0.7em;
     max-height: 344px;
     /* max-height: 40vh; */
   }
@@ -104,6 +98,16 @@
 
 .searchTerm:focus{
   color: #00B4CC;
+}
+
+
+.status{
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  border: none;
+  padding: 0.1em;
+  color: #fff;
 }
 
 .searchButton {
@@ -136,6 +140,7 @@
   .ending h3 {
     color: #ffff;
     text-align: center;
+
   }
   
   .items {
@@ -239,5 +244,11 @@
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
-  
- 
+
+  .ending h4{
+    color: #fff;
+  }
+
+  .last,.last-s{
+      padding: 2.5em;
+  }

@@ -17,42 +17,42 @@
     <div id="main">
         <div class="wrapper">
 
-            <div class="start">
 
-                <div class="row  d-lg-flex align-items-center m-2">
-                    <span style="font-size:30px;cursor:pointer;position:absolute;" onclick="openNav()">&#9776;</span>
-
-
-                    <div class="col col-lg-1">
-                        <!-- <i class="fas fa-bars"></i> -->
-                        <div id="mySidenav" class="sidenav">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            <a href="#">About</a>
-                            <a href="#">Services</a>
-                            <a href="#">Clients</a>
-                            <a href="#">Contact</a>
-                        </div>
-                    </div>
+            <div class="row  d-lg-flex align-items-center start">
+                <span style=" font-size:30px;cursor:pointer;position:absolute;" class="mx-4"
+                    onclick="openNav()">&#9776;</span>
 
 
-                    <h1 class=" col col-lg-1 logo">Logo</h1>
-
-                    <div class=" col col-lg-8">
-                        <div class="search">
-                            <input type="text" class="searchTerm" placeholder="What are you looking for?">
-                            <button type="submit" class="searchButton">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-
-
-                    <div class="col col-lg-2">
-                        <a href="#" class="login"><i class="fas fa-user"> Login or Register</i></a>
+                <div class="col-2 col-md-1">
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
                     </div>
                 </div>
 
+
+                <h1 class=" col-3 col-md-2 logo text-center">Logo</h1>
+
+                <div class=" col-5 col-md-7">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                        <button type="submit" class="searchButton">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="col-2 col-md-2">
+                    <a href="#" class="login"><i class="fas fa-user"> Login or Register</i></a>
+                </div>
             </div>
+
+
 
             <header class="heading">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -126,7 +126,7 @@
                             </div>
 
                             <div class="product-bottom text-center">
-
+                                <button class="status bg-danger">Sold</button>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -294,12 +294,35 @@
 
 
 
-            <footer class="ending my-4">
-                <div class="card">
-                    <div class="card-body bg-dark">
-                        <h3>Copyright &copy; bookify 2019</h3>
+            <footer class="ending">
+                <div class=" bg-primary d-flex justify-content-around last-s">
+                    <div class="something">
+                        <h4>About Us</h4>
+                        <h4>FAQ</h4>
+                        <h4>Contact Us</h4>
+                        <h4>Privacy Policy</h4>
                     </div>
+                    <div class="contact">
+                        <h4>Contact Details</h4>
+                        <h4>Contact Details</h4>
+                        <h4>Contact Details</h4>
+                        <h4>Contact Details</h4>
+                    </div>
+                    <div class="payments">
+                        <h4>Payments</h4>
+                        <h4>Payments</h4>
+                        <h4>Payments</h4>
+                        <h4>Payments</h4>
+                    </div>
+
                 </div>
+
+
+
+                <div class="bg-dark last">
+                    <h3>Copyright &copy; bookify 2019</h3>
+                </div>
+
             </footer>
 
         </div>
